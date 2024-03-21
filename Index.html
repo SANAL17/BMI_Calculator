@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="background">
+        
+        <div class="wrapper">
+            
+            <h1 style="background-color: white; text-align: center; padding: 15px; font-size: 40px;">BMI Calculator </h1>
+            <div style="padding: 20px; background-color: rgb(253, 253, 253);">
+                <p >Height (cm):
+                    <input type="number" id="height"><br><span id="height_error"></span>
+                </p>
+        
+                <p>Weight (kg):
+                    <input type="number" id="weight"><br><span id="weight_error"></span>
+                </p>
+            </div>
+           
+            <div style="align-items: center; padding: 10px; margin-left: 130px;" class="button">
+                <button id="rst" style="background-color: blue;">Reset</button>
+                <button id="btn">Calculate</button>
+
+                <h1></h1>
+            </div>
+            <div style="background-color: white; margin-bottom: 30px;">
+                <p style="padding: 20px; font-size: 35px; font-weight: bold;" id="output"></p>
+
+            </div>
+            
+        </div>
+    </div>
+    
+</body>
+</html>

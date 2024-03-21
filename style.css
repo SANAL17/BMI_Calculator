@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+
+.wrapper{
+    margin-top: 200px;
+    background-color: #ffffff;
+    margin-left: 680px;
+    width: 600px;
+    border-radius: 20pxpx;
+   box-shadow: 2px 5px 8px 10px rgb(68, 66, 66);
+}
+.wrapper p {
+    margin: 10px;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    margin: 60px;
+    background-color: rgb(255, 255, 255);
+}
+.wrapper  input {
+    
+    padding: 10px;
+    margin-left: 30px;
+    background-color: rgb(255, 255, 255);
+}
+.wrapper button{
+    align-items: center;
+    width: 150px; padding: 10px;
+    background-color: rgb(28, 143, 28);
+    border: none;
+    color: white;
+    font-size: 18px;
+    border-radius: 15px;
+}
+.button {
+    background-color: #ffffff;
+}
